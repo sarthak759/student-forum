@@ -1,6 +1,6 @@
 import React from 'react';
 import './sign-in.styles.scss';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import FormInput from '../../../form-label/form-label';
 import CustomButton from '../../../custom-button/custom-button';
 
@@ -23,6 +23,9 @@ class SignIn extends React.Component{
         }catch(error){
             console.log(error);
         }
+
+        let navigate= useNavigate();
+        navigate('/profile');
     }
 
     handleChange= event => {

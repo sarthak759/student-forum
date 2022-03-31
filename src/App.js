@@ -19,7 +19,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <Header currentUser={this.state.currentUser} />
+        {/* <Header currentUser={this.state.currentUser} /> */}
         <Routes>
           <Route path='/' element={<Register/>} />
           <Route path='/login' element={<SignIn/>}/>

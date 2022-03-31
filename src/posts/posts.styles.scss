@@ -1,7 +1,13 @@
-.post{
-    width: 50%;
-    border-width: 5px;
-    border-radius: 2px;
-    border: solid;
-    padding: 1%;
+.posts{
+    display: flex;
+    width: 130%;
+    .post{
+        width: 60%;
+        color: white;
+        border-radius: 2px;
+        
+        padding: 1%;
+        margin: 4% 2%;
+        background-color: #E15FED;
+    }
 }

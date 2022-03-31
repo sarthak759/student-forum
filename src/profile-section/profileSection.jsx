@@ -10,8 +10,8 @@ const ProfileSection= ({displayName, username, imgUrl}) => (
             }}
         />
         <div className='about'>
-            <h2>{username}</h2>
-            <pre className='tab'>3 Posts        |       654 Followers</pre>
+            <p>{username}</p>
+            <pre className='tab'><b>3</b> Posts    <b>654</b> Followers</pre>
             <h4>{displayName}</h4>
             <ul>
                 <li>IIT Kanpur</li>
