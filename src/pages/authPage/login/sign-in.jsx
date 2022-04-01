@@ -57,11 +57,11 @@ class SignIn extends React.Component{
                         required
                     />
 
-                    {/* <Link to={'/profile'}>
-                        <CustomButton type="submit">Sign in</CustomButton>
-                    </Link> */}
+                    
                     <div className='button'>
+                    <Link to={'/profile'}>
                         <CustomButton type="submit">Sign in</CustomButton>
+                    </Link>
                         <span className='register'>New user? <Link to={'/'}>Register</Link></span>
                     </div>
                 </form>
